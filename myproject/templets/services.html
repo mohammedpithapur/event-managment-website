@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .alllink:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      .alllink:visited {
+        color: beige;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      .alllink:hover {
+        color: greenyellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      .alllink:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
     <title>Services</title>
-</head>
-<body>
-       <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-fixed-top ">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-fixed-top">
       <a class="navbar-brand" href="/">
         <img
           src="static/download.png"
@@ -51,73 +78,190 @@
         </ul>
       </div>
     </nav>
-<div class="container">
-<div class="row">
-<div class="col-sm-7">
-<img src="static/images.jpeg"  height="500px" width="700px">
-</div>
-<div class="col-sm-5">
-    <br><br><br><br>
-<p>Pune Function</p>
-<ul>
-<li>Mehandi Rasam</li>
-<li>20000/-</li>
-<li>Available</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-sm-7">
-    <br><br><br><br>
-<p>Pune Function</p>
-<ul>
-<li>Mehandi Rasam</li>
-<li>20000/-</li>
-<li>Available</li>
-</ul>
-</div>
-<div class="col-sm-5">
-<img src="static/img.jpeg" class="rounded" height="700px" width="500px">
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-sm-7">
-     <br><br>
-<img src="static/jaiswal.jpg" class="rounded" height="400px" width="700px">
-</div>
-<div class="col-sm-5">
-    <br><br><br><br>
-<p>Pune Function</p>
-<ul>
-<li>Mehandi Rasam</li>
-<li>20000/-</li>
-<li>Available</li>
-</ul>
-</div>
-</div>
-</div>
-<br><br>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Event Planning & Coordination</li>
-                <li>Venue Selection & Management</li>
-                <li>Catering & Menu Planning</li>
-                <li>Entertainment & Talent Booking</li>
-                <li>Decor & Design</li>
-                <li>Audio/Visual & Lighting</li>
-            </ul>
-        </section>
-        <br><br><br><br>
-        <nav class="navbar bg-dark fixed-bottom  navbar-dark">
-<div class="container-fluid">
-<a class="navbar-brand" href="home.html"> © 2023 Event Management</a>
-<a class="nav-link-active" href="https://wa.me/919023735258">
-    <img src="static/wat.png" height="50px" width="50px"></a>
-</div>
-</nav>
-</body>
+    <!-- <div class="container">
+      <div class="row">
+        <span class="col-sm-7">
+          <img src="static/images.jpeg" />
+        </span>
+        <span class="col-sm-5">
+          <br /><br /><br /><br />
+          <p>Pune Function</p>
+          <ul>
+            <li>Mehandi Rasam</li>
+            <li>20000/-</li>
+            <li>Available</li>
+          </ul>
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <span class="col-sm-7">
+          <br /><br /><br /><br />
+          <p>Pune Function</p>
+          <ul>
+            <li>Mehandi Rasam</li>
+            <li>20000/-</li>
+            <li>Available</li>
+          </ul>
+        </span>
+        <span class="col-sm-5">
+          <img src="static/img.jpeg" class="rounded" />
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <span class="col-sm-7">
+          <br /><br />
+          <img src="static/jaiswal.jpg" class="rounded" />
+        </span>
+        <span class="col-sm-5">
+          <br /><br /><br /><br />
+          <p>Pune Function</p>
+          <ul>
+            <li>Mehandi Rasam</li>
+            <li>20000/-</li>
+            <li>Available</li>
+          </ul>
+        </span>
+      </div>
+    </div> -->
+    <br /><br /><br />
+    <div
+      class="container-fluid"
+      style="text-align: center; border: 10px, solid, black"
+    >
+      <div class="row d-flex justify-content-between p-3">
+        <div class="card col-sm-4 w-10 h-80">
+          <img src="static/jaiswal.jpg" class="card-img-top p-3" alt="home" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="/contact" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-sm-4 w-10 h-80">
+          <img src="static/jaiswal.jpg" class="card-img-top p-3" alt="home" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="/contact" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-sm-4 w-10 h-80">
+          <img src="static/jaiswal.jpg" class="card-img-top p-3" alt="home" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="/contact" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-sm-4 w-10 h-80">
+          <img src="static/jaiswal.jpg" class="card-img-top p-3" alt="home" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="/contact" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-sm-4 w-10 h-80">
+          <img src="static/jaiswal.jpg" class="card-img-top p-3" alt="home" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="/contact" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-sm-4 w-10 h-80">
+          <img src="static/jaiswal.jpg" class="card-img-top p-3" alt="home" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="/contact" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- <section
+      id="home"
+      style="border: solid 2px; text-align: center"
+      class="my-5 text-light bg-dark m-lg-5"
+    >
+      <div style="text-align: center">
+        <h1>Our Services</h1>
+        <br /><br />
+        <ul style="list-style: none; font-size: large">
+          <li>Event Planning & Coordination</li>
+          <br />
+          <li>Venue Selection & Management</li>
+          <br />
+          <li>Catering & Menu Planning</li>
+          <br />
+          <li>Entertainment & Talent Booking</li>
+          <br />
+          <li>Decor & Design</li>
+          <br />
+          <li>Audio/Visual & Lighting</li>
+          <br />
+        </ul>
+      </div>
+    </section> -->
+    <section id="home" style="border: solid 2px; text-align: center">
+      <div class="my-5 text-light bg-dark m-lg-5">
+        <h1>Some Refrences Links</h1>
+        <br /><br />
+        <ul style="list-style: none; font-size: large">
+          <li>
+            <a class="alllink" href="/contact">Reqiurements Form</a>
+          </li>
+          <br />
+          <li>
+            <a class="alllink" href="https://wa.me/919638850007">Whatsapp</a>
+          </li>
+          <br />
+          <li>
+            <a class="alllink" href="mailto: anandwalahuzefa@gmail.com"
+              >Contact Us on Email</a
+            >
+          </li>
+          <br />
+          <li><a class="alllink" href="tel:919638850007">Call Us</a></li>
+          <br />
+          <li><a class="alllink" href="">Images</a></li>
+          <br />
+          <li><a class="alllink" href="/about">About Company</a></li>
+          <br />
+        </ul>
+      </div>
+    </section>
+    <br /><br /><br /><br />
+    <nav class="navbar bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"> © 2023 Event Management</a>
+        <a class="nav-link-active" href="https://wa.me/919023735258">
+          <img src="static/wat.png" height="50px" width="50px"
+        /></a>
+      </div>
+    </nav>
+  </body>
 </html>
